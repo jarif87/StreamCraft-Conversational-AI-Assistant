@@ -64,3 +64,6 @@ if user_query:
         st.markdown(ai_response)
 
     st.session_state.chat_history.append({"type": "ai", "content": ai_response})
+
+st.snow()
+st.balloons()
